@@ -1,0 +1,50 @@
+input, select{
+    margin: 10px 0;
+}
+
+.explosao{
+    width: 100%;
+    position: absolute;
+    top: -80px;
+}
+
+textarea{
+    resize: none;
+}
+
+.bg-gradient-sopa{
+    background:linear-gradient(to left,purple,skyblue) ;
+}
+
+:root{
+    --primaryColor : white;
+    --secundaryColor : black;
+}
+
+.darkmode{
+    --primaryColor : black;
+    --secundaryColor : white;
+}
+
+body{
+    background-color: var(--primaryColor);
+    color: var(--secundaryColor);
+}
+
+.form-control, .card{
+    background-color: var(--primaryColor);
+    color: var(--secundaryColor);
+    border: 1px solid #ced4da;
+}
+
+
+.listar{
+    overflow-y: scroll;
+    max-height: 600px;
+}
+
+.logff{
+    position: fixed;
+    right:0;
+    cursor: pointer;
+}
